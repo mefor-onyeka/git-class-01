@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    padding-inline: 70px;
+    display: flex;
+    gap: 180px;
+    flex-direction: row;
+    align-items: center;
+    padding-block: 20px;
+    background-color: rgb(180, 178, 178);
+}
+.heading span {
+    font-size: 25px;
+    font-weight: bold;
+    color:  rgba(151, 12, 65, 0.897);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    border: solid;
+    border-color: rgba(151, 12, 65, 0.897);
+    border-radius: 0.5rem;
+}
+.search input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border-color: white;
+    border-radius: 0.5rem;
+} 
+.search ion-icon {
+   padding-inline: 20px; 
+   color: rgba(151, 12, 35, 0.897);
+}
+.search button {
+    background-color: rgb(180, 178, 178);
+    height: 30px;
+    border: none;
+}
+body {
+    background-color: rgb(177, 93, 93);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    align-items: center;
+    position:relative;
+    padding-left: 70px;
+    background-color: white;
+    z-index: 99;
+}
+nav span {
+    font-size: larger;
+}
+    
+.nav-btn {
+    padding: 7px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgba(151, 12, 54, 0.897);
+    color: white;    
+}
+
+
+
+nav div {
+    margin-left: 50%;
+    gap: 15px;
+    display: flex;
+}
+
+.nav-btn:hover {
+    border: solid;
+    background-color: rgba(151, 12, 42, 0.897);
+    background-color: white;
+    color: rgb(52, 52, 52);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.tasks-heading {
+    animation-name: move;
+    animation-duration: 2s;
+    width: 90%;
+    margin-left: 5%;
+    margin-block: 20px;
+}
+
+.tasks-heading h2 {
+    margin-block: 20px;
+}
+
+.tasks-heading button {
+    border: none;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: rgba(151, 12, 19, 0.897);
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.tasks-heading input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-color: white;
+    border-radius: 0.5rem;
+}
+.tasks-heading select {
+    padding: 10px;
+    border-radius: 0.5rem;
+    border: none;
+}
+.task section {
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: white;
+    opacity: 90%;
+    padding-block: 20px;
+}
+
+.task ul li{
+    list-style: none;
+    text-align: left;
+    border: groove;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task button:hover{
+    background-color:transparent;
+    transition: 500ms;
+    border-radius: 0.5rem;
+}
